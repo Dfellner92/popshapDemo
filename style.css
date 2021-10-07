@@ -4,9 +4,10 @@
   z-index: 1;
 }
 
+
 .block {
   display: flex;
-  height: 100px;
+  height: 35vh;
   width: 22vw;
   background-color: greenyellow;
   box-shadow: rgba(136, 167, 167, 0.43);
@@ -38,11 +39,13 @@
   z-index: 2;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 540px) {
   #container {
     flex-direction: column;
   }
   .block {
-    width: 45%;
+    height: 30vh;
+    width: 45vw;
+
   }
 }
